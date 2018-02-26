@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url("http://getwallpapers.com/wallpaper/full/9/0/9/448696.jpg");
+      background-size: 100%100%;
+      color: blue;
+    }
+    a {
+      color: lime;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 100px 0px 0px 0px;
+      border: 7px solid blue;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 20px;
+      background: rgba(0,0,100,0.5);
+    }
+    body {
+      background-color: skyblue;
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 700px;
+      padding: 20px;
+      margin: 0 auto;
+      color: purple;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://flamingtext.com/net-fu/proxy_form.cgi?script=fancy-logo&fontname=Fantom+3D&fontsize=117&text=KXNG+JOSH&script=fancy-logo&text=KXNG+JOSH&fontsize=117&fontname=Fantom+3D&fillTextColor=%231900f4&fillTextPattern=Starfield&outlineSize=2&fillOutlineColor=%2304ff00&fillOutline2Type=1&fillOutline2Color=%230df&fillOutline2Pattern=Blue+Squares&curveHighlight=on&shadowBlur=9&shadowColor=%23000&backgroundRadio=2&backgroundPattern=Starfield&backgroundGradient=CD+Half&backgroundStarburstColorAlt=%23fff&backgroundStarburstColor1=%23e5ff00&backgroundStarburstNum=51&imageoutput=true">
+    <h1>YoungKxngCommittee</h1>
+    <h1>YKC</h1>
+    <ul>
+      <li><a href="https://www.google.com/search?q=pineapples&safe=strict&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiK9Z_3ut_YAhWnl-AKHR5SAu4Q_AUICigB&biw=1920&bih=900" target="_blank">About Me</a></li>
+      
+      <li><a href="https://airbit.com/KxngJosh/chances" target="_blank">Buy Beats</a></li>
+      <li><a href="https://airbit.com/KxngJosh" target="_blank">Preveiw</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Help an rapper in Need of beats now</h2>
+    <p>Are you looking for Beats not just regular beats but the best of the best.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>RAPPERS NEED BEATS!!!!</h2>
+    <p>We as producers need to seek out new talent and assist them on their path to victory.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Donations</h2>
+    <p> Give me some money</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("JUST DIE");
+    });
+  </script>
+</body>
